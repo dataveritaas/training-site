@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Engineering Course</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #004080, #007acc);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    nav {
+      background-color: #003366;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 1rem;
+    }
+    nav .logo {
+      color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    nav .menu {
+      display: flex;
+      gap: 1rem;
+    }
+    nav .menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav .menu a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      nav .menu {
+        flex-direction: column;
+        width: 100%;
+      }
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #004080;
+      margin-bottom: 1rem;
+    }
+    .resources a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .resources a:hover {
+      text-decoration: underline;
+    }
+    details {
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 1rem;
+    }
+    summary {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #007acc;
+      cursor: pointer;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    ul li {
+      margin: 0.3rem 0;
+    }
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #004080;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Data Engineering</div>
+    <div class="menu">
+      <a href="#about">About</a>
+      <a href="#resources">Resources</a>
+      <a href="#courses">Courses</a>
+    </div>
+  </nav>
+  <header>
+    <h1>Data Engineering Course</h1>
+    <p>Master Modern Data Systems with Practical Training</p>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About the Instructor</h2>
+    <p><strong>Adarsh MN</strong> is a data professional with 15+ years of industry experience in building scalable data platforms using Spark, SQL, Delta Lake, and cloud tools.</p>
+    <p>Email: <a href="mailto:adarsh@gmail.com">adarsh112@gmail.com</a></p>
+    <p>Phone: 7349271920</p>
+  </section>
+
+  <section id="resources" class="resources">
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="course-glossary.pdf" download>Download Course Glossary (PDF)</a></li>
+    </ul>
+  </section>
+
+  <section id="courses" class="courses">
+    <h2>Courses</h2>
+
+    <details>
+      <summary>1. Data Engineering</summary>
+      <p>A beginner-friendly course introducing core concepts and tools in data engineering.</p>
+      <ul>
+        <li>Basic Concepts
+          <ul>
+            <li>Introduction & Practical Application of Data</li>
+            <li>What is Big Data</li>
+            <li>Structured vs Unstructured Data</li>
+            <li>Batch vs Stream Processing</li>
+            <li>File Formats, Schema & Compression</li>
+          </ul>
+        </li>
+        <li>Data Modeling
+          <ul>
+            <li>Dimensional Data Modeling</li>
+            <li>Star Schema</li>
+            <li>Snowflake Schema</li>
+            <li>Slowly Changing Dimensions (SCD)</li>
+            <li>Additive vs Non-Additive Facts</li>
+          </ul>
+        </li>
+        <li>Data Warehousing
+          <ul>
+            <li>Medallion Architecture</li>
+            <li>Data Lake</li>
+            <li>Data warehouse</li>
+            <li>Data Marts</li>
+            <li>Data Lakehouse</li>
+          </ul>
+        </li>
+        <li>SQL
+          <ul>
+            <li>Basic Operations</li>
+            <li>Joins & Aggregations</li>
+            <li>Views & Meterialised Views</li>
+            <li>DDL Operations</li>
+            <li>Normalisation</li>
+          </ul>
+        </li>
+        <li>ETL with Spark 
+          <ul>
+            <li>Introduction to spark</li>
+            <li>Basic programing</li>
+            <li>Batch vs Streaming</li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>2. Data Engineering Comprehensive</summary>
+      <p>A complete course for professionals looking to build production-grade data pipelines and analytics systems.</p>
+      <ul>
+        <li>Everything in the Data Engineering course</li>
+        <li>Spark Advanced Features
+          <ul>
+            <li>Transformations</li>
+            <li>Joins and Optimizations</li>
+            <li>Partitioning and File Formats</li>
+          </ul>
+        </li>
+        <li>Lakehouse architecture
+          <ul>
+            <li>Hive Table & Hive Metastore</li>
+            <li>Open Table Formats: Delta Lake, Iceberg</li>
+          </ul>
+         </li>
+        <li>Data Ingestion and Orchestration (Airflow)</li>
+        <li>Azure Cloud
+          <ul>
+            <li>Data Factory</li>
+            <li>Azure Synapse</li>
+            <li>Azure Fabric</li>
+          </ul>
+         </li>
+      </ul>
+    </details>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Adarsh MN. All rights reserved.</p>
+  </footer>
+</body>
+</html>
