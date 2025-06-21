@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Data Engineering Course</title>
+  <title>Data Veritas</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -62,6 +62,10 @@
       color: #004080;
       margin-bottom: 1rem;
     }
+    h3 {
+      color: #007acc;
+      margin-top: 1.5rem;
+    }
     .resources a {
       color: #007acc;
       text-decoration: none;
@@ -69,18 +73,6 @@
     }
     .resources a:hover {
       text-decoration: underline;
-    }
-    details {
-      margin-bottom: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      padding: 1rem;
-    }
-    summary {
-      font-weight: bold;
-      font-size: 1.1rem;
-      color: #007acc;
-      cursor: pointer;
     }
     ul {
       padding-left: 1.5rem;
@@ -103,7 +95,7 @@
 </head>
 <body>
   <nav>
-    <div class="logo">Data Engineering</div>
+    <div class="logo">Data Veritas Training</div>
     <div class="menu">
       <a href="#about">About</a>
       <a href="#resources">Resources</a>
@@ -111,15 +103,18 @@
     </div>
   </nav>
   <header>
-    <h1>Data Engineering Course</h1>
+    <h1>Data Engineering</h1>
     <p>Master Modern Data Systems with Practical Training</p>
   </header>
 
   <section id="about" class="about">
     <h2>About the Instructor</h2>
-    <p><strong>Adarsh MN</strong> is a data professional with 15+ years of industry experience in building scalable data platforms using Spark, SQL, Delta Lake, and cloud tools.</p>
-    <p>Email: <a href="mailto:adarsh@gmail.com">adarsh112@gmail.com</a></p>
-    <p>Phone: 7349271920</p>
+    <p>A data professional with 15+ years of industry experience across domains in building scalable data platforms using various cloud tools.</p>
+  </section>
+
+  <section id="about-course" class="about">
+    <h2>About the Course</h2>
+    <p>This course is a well-curated modern data engineering training material covering day-to-day projects in companies across various domains. It is intended to train at the industry standard of today using the latest concepts. This course covers basic and advanced data engineering with Azure Cloud.</p>
   </section>
 
   <section id="resources" class="resources">
@@ -130,90 +125,156 @@
   </section>
 
   <section id="courses" class="courses">
-    <h2>Courses</h2>
+    <h2>Course Glossary</h2>
 
-    <details>
-      <summary>1. Data Engineering</summary>
-      <p>A beginner-friendly course introducing core concepts and tools in data engineering.</p>
-      <ul>
-        <li>Basic Concepts
-          <ul>
-            <li>Introduction & Practical Application of Data</li>
-            <li>What is Big Data</li>
-            <li>Structured vs Unstructured Data</li>
-            <li>Batch vs Stream Processing</li>
-            <li>File Formats, Schema & Compression</li>
-          </ul>
-        </li>
-        <li>Data Modeling
-          <ul>
-            <li>Dimensional Data Modeling</li>
-            <li>Star Schema</li>
-            <li>Snowflake Schema</li>
-            <li>Slowly Changing Dimensions (SCD)</li>
-            <li>Additive vs Non-Additive Facts</li>
-          </ul>
-        </li>
-        <li>Data Warehousing
-          <ul>
-            <li>Medallion Architecture</li>
-            <li>Data Lake</li>
-            <li>Data warehouse</li>
-            <li>Data Marts</li>
-            <li>Data Lakehouse</li>
-          </ul>
-        </li>
-        <li>SQL
-          <ul>
-            <li>Basic Operations</li>
-            <li>Joins & Aggregations</li>
-            <li>Views & Meterialised Views</li>
-            <li>DDL Operations</li>
-            <li>Normalisation</li>
-          </ul>
-        </li>
-        <li>ETL with Spark 
-          <ul>
-            <li>Introduction to spark</li>
-            <li>Basic programing</li>
-            <li>Batch vs Streaming</li>
-          </ul>
-        </li>
-      </ul>
-    </details>
+    <h3>Basic Data Engineering</h3>
+    <ul>
+      <li><strong>Basic Concepts</strong>
+        <ul>
+          <li>Introduction & Practical Application of Data</li>
+          <li>What is Big Data</li>
+          <li>Structured vs Unstructured Data</li>
+          <li>Batch vs Stream Processing</li>
+          <li>File Formats, Schema & Compression</li>
+        </ul>
+      </li>
+      <li><strong>Data Modeling</strong>
+        <ul>
+          <li>Dimensional Data Modeling</li>
+          <li>Star Schema</li>
+          <li>Snowflake Schema</li>
+          <li>Slowly Changing Dimensions (SCD)</li>
+          <li>Additive vs Non-Additive Facts</li>
+        </ul>
+      </li>
+      <li><strong>Data Warehousing</strong>
+        <ul>
+          <li>Medallion Architecture</li>
+          <li>Data Lake vs Data Warehouse vs Data Marts</li>
+          <li>Data Lakehouse</li>
+        </ul>
+      </li>
+      <li><strong>SQL</strong>
+        <ul>
+          <li>Basic Operations</li>
+          <li>Joins & Aggregations</li>
+          <li>Views & Materialized Views</li>
+          <li>DDL Operations</li>
+          <li>Normalization</li>
+        </ul>
+      </li>
+      <li><strong>ETL with Spark</strong>
+        <ul>
+          <li>Introduction to Spark</li>
+          <li>Basic Programming</li>
+          <li>Batch vs Streaming</li>
+          <li>Insert vs Upsert</li>
+          <li>Change Data Capture - CDC</li>
+        </ul>
+      </li>
+    </ul>
 
-    <details>
-      <summary>2. Data Engineering Comprehensive</summary>
-      <p>A complete course for professionals looking to build production-grade data pipelines and analytics systems.</p>
-      <ul>
-        <li>Everything in the Data Engineering course</li>
-        <li>Spark Advanced Features
+    <h3>Data Engineering Advanced</h3>
+    <ul>
+      <li><strong>Spark Advanced Features</strong>
+        <ul>
+          <li>Transformations</li>
+          <li>Joins and Optimizations</li>
+          <li>Partitioning and File Formats</li>
+          <li>Orchestration with Apache Airflow</li>
+        </ul>
+      </li>
+      <li><strong>Lakehouse Architecture</strong>
+        <ul>
+          <li>Introduction</li>
+          <li>Hive Table & Hive Metastore</li>
+          <li>Presto & Trino & Databricks SQL</li>
+          <li>Open Table Formats: Delta Lake, Iceberg</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>Azure Cloud</h3>
+    <ul>
+      <li><strong>Azure SQL Database</strong>
+        <ul>
+          <li>Introduction - Database as a Service (DaaS)</li>
+          <li>Creating & Using SQL Server</li>
+          <li>Creating SQL Database Service</li>
+          <li>Managed Instance vs Single vs Elastic Pool</li>
+          <li>Scalability & Availability</li>
+          <li>Migrations</li>
+        </ul>
+      </li>
+      <li><strong>Azure Storage Service</strong>
+        <ul>
+          <li>Features of Azure Storage Service</li>
+          <li>Introduction to Blob Storage Service</li>
+          <li>Blob Storage Architecture</li>
+          <li>Azure Storage Access Tiers</li>
+          <li>Understanding Data Replication</li>
+          <li>Versioning & Lifecycle</li>
+        </ul>
+      </li>
+      <li><strong>Azure Data Factory</strong>
+        <ul>
+          <li>Introduction to ADF</li>
+          <li>ADF Key Components</li>
           <ul>
-            <li>Transformations</li>
-            <li>Joins and Optimizations</li>
-            <li>Partitioning and File Formats</li>
+            <li>Pipeline</li>
+            <li>Activity</li>
+            <li>Triggers</li>
+            <li>Data Flows</li>
+            <li>Integration Runtime</li>
           </ul>
-        </li>
-        <li>Lakehouse architecture
+          <li>Activity 1</li>
           <ul>
-            <li>Hive Table & Hive Metastore</li>
-            <li>Open Table Formats: Delta Lake, Iceberg</li>
+            <li>Copy Data from Blobstore to Blobstore</li>
+            <li>Copy Data from Blobstore to Azure SQL Database</li>
+            <li>Working with Copy Activity</li>
+            <li>Working with Lookup Activity</li>
+            <li>Working with Filter Activity</li>
+            <li>Triggering & Monitoring Pipelines</li>
           </ul>
-         </li>
-        <li>Data Ingestion and Orchestration (Airflow)</li>
-        <li>Azure Cloud
+          <li>Activity 2</li>
           <ul>
-            <li>Data Factory</li>
-            <li>Azure Synapse</li>
-            <li>Azure Fabric</li>
+            <li>Triggering Pipelines Manually</li>
+            <li>Triggering Pipelines on Schedule</li>
+            <li>Monitoring Pipelines</li>
           </ul>
-         </li>
-      </ul>
-    </details>
+        </ul>
+      </li>
+      <li><strong>Azure Databricks</strong>
+        <ul>
+          <li>Introduction</li>
+          <li>Databricks Runtime & Cluster Management</li>
+          <li>Databricks Main Concepts</li>
+          <li>Databricks Unity Catalog</li>
+          <li>Databricks SQL</li>
+          <li>Databricks SQL Serverless</li>
+          <li>Activity 1</li>
+          <ul>
+            <li>Reading Data from Azure Blob</li>
+            <li>Writing Data to Azure Blob</li>
+          </ul>
+        </ul>
+      </li>
+      <li><strong>Azure Synapse Analytics</strong>
+        <ul>
+          <li>Introduction</li>
+          <li>Creating Synapse Workspace</li>
+          <li>Understanding Synapse SQL Pool</li>
+          <li>Understanding Synapse SQL On-Demand</li>
+          <li>Using Synapse Pipelines to Import Data</li>
+          <li>Using Copy Data Tool</li>
+          <li>Using Synapse Pipelines to Orchestrate</li>
+        </ul>
+      </li>
+    </ul>
   </section>
 
   <footer>
-    <p>&copy; 2025 Adarsh MN. All rights reserved.</p>
+    <p>&copy; 2025 Data Veritas Training. All rights reserved.</p>
   </footer>
 </body>
 </html>
